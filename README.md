@@ -1,0 +1,1 @@
+Desenvolvimento de um modelo de Machine Learning de Regressão Linear para a competição do Santander pelo Kaggle, utilizando uma base de erro na métrica do MAE (Mean Absolute Error), separando o dataset em treino e teste com a biblioteca train_test_split, também usando o módulo GridSearchCV para encontrar os melhores parâmetros para o modelo.
