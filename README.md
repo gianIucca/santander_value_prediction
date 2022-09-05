@@ -1,7 +1,7 @@
 Desenvolvimento de diferentes modelos de Machine Learning de para a competição do Santander pelo Kaggle, utilizando como métricas de erro o MAE (Mean Absolute Error), o RMSE (Root Mean Squared Error), o Coeficiente de Determinação (R-squared) e o valor ajustado para o r-squared. 
 
 Dentro do projeto serão testados 10 modelos de regressão para verificar qual melhor se adapta aos dados. Os modelos são: 
-1)Linear Regression
+1)Linear Regression <br> 
 2)Ridge Regression
 3)Neural Network Regression
 4)Lasso Regression
