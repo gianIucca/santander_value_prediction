@@ -1,6 +1,6 @@
 Desenvolvimento de diferentes modelos de Machine Learning de para a competição do Santander pelo Kaggle, utilizando como métricas de erro o MAE (Mean Absolute Error), o RMSE (Root Mean Squared Error), o Coeficiente de Determinação (R-squared) e o valor ajustado para o r-squared. <br>
 
-Dentro do projeto serão testados 9 modelos de regressão para verificar qual melhor se adapta aos dados. Os modelos são: <br>
+Dentro do projeto serão testados 12 modelos de regressão para verificar qual melhor se adapta aos dados. Os modelos são: <br>
 1)Linear Regression<br>
 2)Ridge Regression<br>
 3)Neural Network Regression<br>
@@ -10,6 +10,9 @@ Dentro do projeto serão testados 9 modelos de regressão para verificar qual me
 7)KNN Model (K-Nearest Neighbours)<br>
 8)SVM Model (Support Vector Machines)<br>
 9)Gaussian Regression<br>
+10)Light GBM Regressor <br>
+11)CatBoost Regressor <br>
+12)XGBoost Regressor <br>
 <br>
 Também foram testadas 3 técnicas de escalonamento dos dados diferentes: Robust Scaler, Min Max Scaler e StandardScaler. Além disso, foram testados diferentes tamanhos para o conjunto de teste/treino a fim de encontrar a melhor divisão possível.<br>
 
@@ -17,4 +20,4 @@ Por se tratar de um conjunto de dados com muitas features diferentes, e sem nenh
 
 Após o teste dos modelos sem o tuning de hiperparametros foi utilizado o módulo GridSearchCV para encontrar os melhores parâmetros para os diferentes modelos de regressão linear.
 
-Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi possível chegar em um modelo
+Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi possível verificar que o melhor modelo foi o Regressor, com um MAE(Mean Absolute Error) de x, um r2_score de x, demorando x segundos para rodar o código.
