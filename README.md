@@ -20,4 +20,4 @@ Por se tratar de um conjunto de dados com muitas features diferentes, e sem nenh
 
 Após o teste dos modelos sem o tuning de hiperparametros foi utilizado o módulo GridSearchCV para encontrar os melhores parâmetros para os diferentes modelos de regressão linear.
 
-Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi possível verificar que o melhor modelo foi o Regressor, com um MAE(Mean Absolute Error) de x, um r2_score de x, demorando x segundos para rodar o código.
+Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi realizada a submissão do desafio com o modelo do CatBoost, obtendo um score de 1.91331 na competição do Santander pelo Kaggle.
