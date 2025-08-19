@@ -23,7 +23,11 @@ Data Processing: pandas, numpy
 Machine Learning: scikit-learn, xgboost, lightgbm, catboost
 Visualização dos dados: matplotlib, seaborn
 Model Selection: GridSearchCV, train_test_split
+Avaliação: MAE, RMSE, R², R² Ajustado
+<br>
+Competências Chave: Machine Learning, Data Science, Engenharia de Features, Otimização de Modelos, Análise Estatística
+
 
 Após o teste dos modelos sem o tuning de hiperparametros foi utilizado o módulo GridSearchCV para encontrar os melhores parâmetros para os diferentes modelos de regressão linear.
 
-Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi realizada a submissão do desafio com o modelo do CatBoost, obtendo um score de 1.91331 na competição do Santander pelo Kaggle.
+Para concluir o projeto, foi possível verificar que após selecionar a melhor divisão entre treino e teste, escalonar os dados e realizar a otimização dos hiperparametros dos modelos que performaram melhores no conjunto de dados, foi realizada a submissão do desafio com o modelo do CatBoost, obtendo um score de 1.91331 na competição do Santander pelo Kaggle. <br>
